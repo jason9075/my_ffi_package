@@ -29,7 +29,10 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text(_nativeLib.getString()),
+          child: Text(
+            '${_nativeLib.getString()}\n'
+            'OpenCV: ${_nativeLib.getOpenCvVersion()}\n'
+          ),
         ),
       ),
     );
