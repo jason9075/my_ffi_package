@@ -1,15 +1,9 @@
 # my_ffi_package
 
-A new Flutter plugin project.
+Android/iOS 開發 Flutter FFI C++ Package 的筆記，用 OpenCV 與 TensorflowLite 為範例
 
-## Getting Started
+## Medium Stories 
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+[Part 1](https://medium.com/@capillaryj/android-ios-開發-flutter-ffi-c-package-的筆記-用-opencv-與-tensorflowlite-為範例-part-1-c37decb62a5c)
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+[Part 2](https://medium.com/@capillaryj/android-ios-開發-flutter-ffi-c-package-的筆記-用-opencv-與-tensorflowlite-為範例-part-2-4b8e3b78e82)
