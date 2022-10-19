@@ -20,9 +20,9 @@ A new Flutter plugin project.
     'native_code/**/*.{cpp,hpp,c,h}',
   ]
 
-  s.preserve_paths = 'third_sdk/opencv2.framework'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework opencv2'}
-  s.vendored_frameworks =  'third_sdk/opencv2.framework'
+  s.preserve_paths = 'third_sdk/opencv2.framework', 'third_sdk/TensorFlowLiteC.framework'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework opencv2 -framework TensorFlowLiteC'}
+  s.vendored_frameworks =  'third_sdk/opencv2.framework', 'third_sdk/TensorFlowLiteC.framework'
 
   s.frameworks = 'AVFoundation'
   s.library = 'c++'
