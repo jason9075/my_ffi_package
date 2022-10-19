@@ -32,6 +32,7 @@ class _MyAppState extends State<MyApp> {
           child: Text(
             '${_nativeLib.getString()}\n'
             'OpenCV: ${_nativeLib.getOpenCvVersion()}\n'
+            'Tflite: ${_nativeLib.getTfliteVersion()}'
           ),
         ),
       ),
